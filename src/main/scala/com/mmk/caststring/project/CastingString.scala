@@ -1,4 +1,6 @@
-object  CastingString extends App {
+package com.mmk.caststring.project
+
+object CastingString extends App {
   def castStringToInteger(text: String): Option[Int] = {
     try {
       Some(text.toInt)
@@ -7,5 +9,3 @@ object  CastingString extends App {
     }
   }
 }
-val num=CastingString.castStringToInteger("23")
-println(num)
